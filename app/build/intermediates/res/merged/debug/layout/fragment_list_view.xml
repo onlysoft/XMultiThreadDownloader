@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_function"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加任务" />
+    </LinearLayout>
+
+    <ListView xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/ll_function"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:dividerHeight="8dp"
+        android:padding="8dp"
+        tools:context="com.onlysoft.xmultithreaddownload.ui.fragment.ListViewFragment">
+
+    </ListView>
+</RelativeLayout><!-- From: file:/E:/develper/workspace/MultiThreadDownload/app/src/main/res/layout/fragment_list_view.xml -->

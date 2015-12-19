@@ -15,12 +15,12 @@ dependencies {
 }
 ```
 #####how to use
-read demo first,I will and it as soon as quicklu
+read demo first,I will and it as soon as quickly
 #######Changelog
 ---------
 > **1.0.0**
-    >>
+>>I will and it as soon as quickly
 > **1.0.1**
-    >> 
+>> I will and it as soon as quickly
 > **1.0.3**
-    >>
+>>I will and it as soon as quickly

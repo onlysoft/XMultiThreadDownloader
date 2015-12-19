@@ -6,5 +6,21 @@ this project is fork from <https://github.com/Aspsine/MultiThreadDownload> and a
 #####ScreenShot
 ![run demo](https://github.com/onlysoft/XMultiThreadDownloader/raw/master/art/screenshot01.png)
 ![run demo](https://github.com/onlysoft/XMultiThreadDownloader/raw/master/art/screenshot02.png)
-#####How to use
-
+#####Gradle
+----------
+```
+dependencies {
+    ...
+    compile 'cn.onlysoft:xmultithreddownload:1.0.2'
+}
+```
+#####how to use
+read demo first,I will and it as soon as quicklu
+#######Changelog
+---------
+* **1.0.0**
+    *
+* **1.0.1**
+    * 
+* **1.0.3**
+    *

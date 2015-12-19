@@ -32,18 +32,19 @@ private void initDownloader() {
 }
 ```
 --Ponit 4:add tak 
+```Java
 //first covert your data model to downloadInfo 
 //then add it
-```Java
 private void download(int position, String tag, DownloadInfo info) {
         DownloadService.intentDownload(getActivity(), position, tag, info);
     }
 ```
 --Ponit 4:get all Task Info
 ```Java
+//please run it async
 DownloadManager.getInstance().getDownloadInfos();
 ```
-//please run it async
+
 ####Changelog
 ---------
 > **1.0.0**

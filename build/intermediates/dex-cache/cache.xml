@@ -2,11 +2,18 @@
 <items version="2" >
 
     <item
-        jar="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jar="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\pre-dexed\debug\classes-81a53c740b675df9855ac5672d4082fd484ad582.jar" />
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\pre-dexed\debug\classes-ba7d4ff19955d7f9ef0d51fcb950cddecb1e577e.jar" />
+    </item>
+    <item
+        jar="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ccbc26be2c465c622a48310e8092241b01abe80">
+        <dex dex="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\pre-dexed\debug\classes-061f5b049fa4febdbed078b65daeb2bb93b502cc.jar" />
     </item>
     <item
         jar="E:\develper\env\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
@@ -16,11 +23,11 @@
         <dex dex="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-289a6764c5afa87638e48312df2b6331d7107ec6.jar" />
     </item>
     <item
-        jar="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jar="C:\Users\xmren\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
-        <dex dex="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\pre-dexed\debug\classes-ba7d4ff19955d7f9ef0d51fcb950cddecb1e577e.jar" />
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-da29d014345a687a2cd6e27b6801f8a5f053558e.jar" />
     </item>
     <item
         jar="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
@@ -30,18 +37,11 @@
         <dex dex="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-ce9d838443af8c39d1987d7be8c6dda06215ee8c.jar" />
     </item>
     <item
-        jar="C:\Users\xmren\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jar="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\exploded-aar\cn.onlysoft\library\1.0.2\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
-        <dex dex="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1-480a0f4678de52a1a5ffb3b0f5078f71695c33ff.jar" />
-    </item>
-    <item
-        jar="C:\Users\xmren\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-da29d014345a687a2cd6e27b6801f8a5f053558e.jar" />
+        sha1="44b60fac3444c0b3cfd1af8eccaa2383d9c55f82">
+        <dex dex="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\pre-dexed\debug\classes-a8393f975b5e4e6395bbc70d131f62a67b898001.jar" />
     </item>
     <item
         jar="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.0\jars\classes.jar"
@@ -51,18 +51,18 @@
         <dex dex="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\pre-dexed\debug\classes-27f195b630f1e144249b2f73e8c3b8305240190c.jar" />
     </item>
     <item
-        jar="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\exploded-aar\cn.onlysoft\library\1.0.1\jars\classes.jar"
+        jar="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="0776865ad6afff23087df677d76224f24aa5b3ac">
-        <dex dex="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\pre-dexed\debug\classes-5d91e4233ac02c8c4933be3655fca2cc4535fd0d.jar" />
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\pre-dexed\debug\classes-81a53c740b675df9855ac5672d4082fd484ad582.jar" />
     </item>
     <item
-        jar="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.0\jars\classes.jar"
+        jar="C:\Users\xmren\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="1ccbc26be2c465c622a48310e8092241b01abe80">
-        <dex dex="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\pre-dexed\debug\classes-061f5b049fa4febdbed078b65daeb2bb93b502cc.jar" />
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="E:\develper\workspace\MultiThreadDownload\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1-480a0f4678de52a1a5ffb3b0f5078f71695c33ff.jar" />
     </item>
 
 </items>

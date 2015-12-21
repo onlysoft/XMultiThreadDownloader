@@ -8,6 +8,7 @@ import android.support.annotation.NonNull;
 import android.util.Log;
 
 import cn.onlysoft.xmultithreaddownload.DownloadInfo;
+import cn.onlysoft.xmultithreaddownload.architecture.DownloadStatus;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -168,7 +169,6 @@ public class DownloadInfoDao extends AbstractDao<DownloadInfo> {
 
     public List<DownloadInfo> query(int state) {
         List<DownloadInfo> downloadInfos=new ArrayList<>();
-        List<DownloadInfo> taskInfos=new ArrayList<>();
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = db.rawQuery("select * from "
                         + TABLE_NAME
@@ -176,7 +176,7 @@ public class DownloadInfoDao extends AbstractDao<DownloadInfo> {
                 new String[]{state+""});
         while(cursor.moveToNext()){
             DownloadInfo downloadInfo=getDownloadInfo(cursor);
-            taskInfos.add(downloadInfo);
+            downloadInfos.add(downloadInfo);
         }
         cursor.close();
         return downloadInfos;
@@ -194,5 +194,35 @@ public class DownloadInfoDao extends AbstractDao<DownloadInfo> {
         downloadInfo.setUri(cursor.getString(cursor.getColumnIndex(FIELD_URL)));
         downloadInfo.setPercent(cursor.getInt(cursor.getColumnIndex(FIELD_DOWNLOAD_PRECENT)));
         return downloadInfo;
+    }
+
+    public List<DownloadInfo> queryFinished() {
+        List<DownloadInfo> downloadInfos=new ArrayList<>();
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor cursor = db.rawQuery("select * from "
+                        + TABLE_NAME
+                        +" where "+FIELD_DOWNLOAD_STATE+" = ? ",
+                new String[]{DownloadStatus.STATUS_COMPLETED+""});
+        while(cursor.moveToNext()){
+            DownloadInfo downloadInfo=getDownloadInfo(cursor);
+            downloadInfos.add(downloadInfo);
+        }
+        cursor.close();
+        return downloadInfos;
+    }
+
+    public List<DownloadInfo> queryUnFinished() {
+        List<DownloadInfo> downloadInfos=new ArrayList<>();
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor cursor = db.rawQuery("select * from "
+                        + TABLE_NAME
+                        +" where "+FIELD_DOWNLOAD_STATE+" != ? ",
+                new String[]{DownloadStatus.STATUS_COMPLETED+""});
+        while(cursor.moveToNext()){
+            DownloadInfo downloadInfo=getDownloadInfo(cursor);
+            downloadInfos.add(downloadInfo);
+        }
+        cursor.close();
+        return downloadInfos;
     }
 }

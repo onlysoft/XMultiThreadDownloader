@@ -259,6 +259,7 @@ public class ListViewFragment extends Fragment implements OnItemClickListener<Do
                         holder.btnDownload.setText("重试");
                     }
                     break;
+
             }
         }
     }

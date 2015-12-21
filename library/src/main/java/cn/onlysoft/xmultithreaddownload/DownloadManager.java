@@ -159,6 +159,24 @@ public class DownloadManager implements Downloader.OnDownloaderDestroyedListener
         return mDBManager.getDownloadInfo();
     }
 
+    /**
+     * add by xmren at 1.0.3
+     * get finished download info
+     * @return
+     */
+    public List<DownloadInfo> getFinishedDownloadInfos(){
+        return mDBManager.getFinishedDownloadInfo();
+    }
+
+    /**
+     * add by xmren at 1.0.3
+     * get finished download info
+     * @return
+     */
+    public List<DownloadInfo> getUnFinishedDownloadInfos(){
+        return mDBManager.getUnFinishedDownloadInfo();
+    }
+
     public List<DownloadInfo> getDownloadInfos(int state){
         return mDBManager.getDownloadInfoByState(state);
     }

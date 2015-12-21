@@ -22,11 +22,12 @@ public class DownloadRequest {
     private DownloadRequest() {
     }
 
-    private DownloadRequest(String uri, File folder, CharSequence title, CharSequence description, boolean scannable) {
+    private DownloadRequest(String uri, File folder, CharSequence title, CharSequence description,String iconUrl, boolean scannable) {
         this.mUri = uri;
         this.mFolder = folder;
         this.mTitle = title;
         this.mDescription = description;
+        this.mIconUrl=iconUrl;
         this.mScannable = scannable;
     }
 
@@ -102,7 +103,7 @@ public class DownloadRequest {
         }
 
         public DownloadRequest build() {
-            DownloadRequest request = new DownloadRequest(mUri, mFolder, mTitle, mDescription, mScannable);
+            DownloadRequest request = new DownloadRequest(mUri, mFolder, mTitle, mDescription, mIconUrl.toString(),mScannable);
             return request;
         }
     }

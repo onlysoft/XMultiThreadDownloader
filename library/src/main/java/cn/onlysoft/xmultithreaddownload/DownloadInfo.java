@@ -126,6 +126,8 @@ public class DownloadInfo implements Serializable{
                 return "install";
             case DownloadStatus.STATUS_CONNECTED:
                 return "connected";
+            case DownloadStatus.STATUS_INSTALLED:
+                return "has install";
             default:
                 return "Not Download";
         }

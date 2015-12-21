@@ -85,4 +85,14 @@ public class DataBaseManager {
     public synchronized void updateTask(DownloadInfo taskInfo){
         mDownloadInfoDao.update(taskInfo);
     }
+
+    public List<DownloadInfo> getFinishedDownloadInfo() {
+        List<DownloadInfo> taskInfos=mDownloadInfoDao.queryFinished();
+        return taskInfos;
+    }
+
+    public List<DownloadInfo> getUnFinishedDownloadInfo() {
+        List<DownloadInfo> taskInfos=mDownloadInfoDao.queryUnFinished();
+        return taskInfos;
+    }
 }
